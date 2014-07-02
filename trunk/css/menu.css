@@ -1,5 +1,5 @@
-#color-menu {background-color: #6ac4df; border-radius: 9px; height: 39px; font-variant: small-caps;}
-#color1-menu {background-color: #c01c2b; border-radius: 9px; height: 39px; margin-right: 3px; font-variant: small-caps;}
+#color-menu {background-color: #6ac4df; border-radius: 9px; height: auto; font-variant: small-caps;}
+#color1-menu {background-color: #c01c2b; border-radius: 9px; height: auto; margin-right: 3px; font-variant: small-caps;}
 #dang-ki-view {background: url("../img/dki-bg.png"); color: #7d7900; font-size: 15px;font-weight: bold;font-variant: small-caps;} /* bg-dki.png  background-dangki.png*/
 /***************ezpage1 : giai phap ************************/
 .thanthien {background: url("../img/bg_span4.png") no-repeat;height: 500px;padding: 0px;}
@@ -316,7 +316,7 @@ color: #ffffff;
 
 /****************tong hop ********************/
 .navbar {
-min-height: 20px;
+height: 15px;
 border: 1px solid rgba(0, 0, 0, 0);
 margin-bottom: 0px;
 }

@@ -4,11 +4,12 @@
 
 }
 .nav.navbar-nav.navbar-right.nav_top {
-margin-top: 10px;
+margin-top: 5px;
 }
 /* .navbar-header{width: 100%;} */
 .logo_ez {
     width: 165px;
+	margin-top: -9px;
 }
 
 #inputEmail {
