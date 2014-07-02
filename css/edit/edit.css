@@ -28,3 +28,9 @@ top: 10px;
 z-index: 25;
 }
 
+/*****************content*******************************/
+#threeBlocks #leftBlock, #threeBlocks #middleBlock, #threeBlocks #rightBlock{width: 282px;}
+#middleBlock {margin: 0 15px;}
+div#leftBlock {
+left: 15px;
+}
