@@ -56,7 +56,7 @@
     <link rel="stylesheet" type="text/css" href="http://localhost/webcreathtml/css/jazzy-responsive.css">
      <link href="http://localhost/webcreathtml/css/custum.css" rel="stylesheet" media="screen">
     
-     <link rel="stylesheet" type="text/css" href="http://localhost/webcreathtml/css/mabanghang.net_style.css">
+     <link rel="stylesheet" type="text/css" href="http://localhost/webcreathtml/css/net_style.css">
      <!-- css animation -->
       <link rel="stylesheet" href="css/animations.css" media="screen">
    <!-- <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic" rel="stylesheet" type="text/css">
@@ -126,31 +126,51 @@
 	</noscript>
 	<script type="text/javascript">var h=document.createElement('div');h.id='hideAll';document.body.appendChild(h);</script>
 	<div id="coverPage" class="initialPage">
+	 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+                <div class="navbar-header header-sty">
+                  <a href="index.html" class="navbar-brand"><img class='logo_ez img-responsive' src="http://localhost/webcreathtml/img/layout3-1/AlatcaLogo2.png" ></a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+               </div><!-- class="navbar-header" --> 
+
+                <div class="collapse navbar-collapse navbar-ex1-collapse " role="navigation">
+                    <ul id="headerMenu" class="nav navbar-nav navbar-right nav_top">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a rel="bookmark" href="http://localhost/webcreathtml/personal-websites/"><span>Personal website</span><i></i></a></li>
+						<li><a rel="bookmark" href="http://localhost/webcreathtml/business-websites/"><span>Business website</span><i> </i></a></li>
+						<li><a rel="bookmark" href="http://localhost/webcreathtml/e-commerce/"><span>E-commerce</span><i> </i></a></li>
+						<li id="loginLink"><a href="http://localhost/webcreathtml/sign-in/" id="loginLinkBtn" ><span>Login</span><i> </i></a></li>
+						<!--
+                        <li><a href="pricing.html" id='color1-menu'>M'INSCRIRE</a></li>
+                        <li><a href="pricing.html" id='color-menu'>CONNEXION</a></li>
+						-->
+						
+                    </ul>
+                </div><!--  class="collapse navbar-collapse navbar-ex1-collapse" role="navigation" -->
+
+            </div><!-- class="container"-->
+
+
+        </div><!-- class="navbar navbar-inverse navbar-fixed-top" role="navigation" -->
+	
 		<div id="page">
 			<div id="header" class="initialPage">
+			<!--
 				<span id="logo"><img
-					src="http://localhost/webcreathtml/img/layout3-1/AlatcaLogo2.png"
-					width="230" height="80" alt=""></span>
+					src="http://localhost/webcreathtml/img/layout3-1/AlatcaLogo2.png" width="230" height="80" alt="">
+				</span>
 				<ul id="headerMenu">
-					<li><a rel="bookmark"
-						href="http://localhost/webcreathtml/personal-websites/"><span>Personal
-								website</span><i>
-								<!-- -->
-						</i></a></li>
-					<li><a rel="bookmark"
-						href="http://localhost/webcreathtml/business-websites/"><span>Business
-								website</span><i>
-								<!-- -->
-						</i></a></li>
-					<li><a rel="bookmark" href="http://localhost/webcreathtml/e-commerce/"><span>E-commerce</span><i>
-								<!-- -->
-						</i></a></li>
-					<li id="loginLink"><a href="http://localhost/webcreathtml/sign-in/"
-						id="loginLinkBtn"
-						><span>Login</span><i>
-								<!-- -->
-						</i></a></li>
+					<li><a rel="bookmark" href="http://localhost/webcreathtml/personal-websites/"><span>Personal website</span><i></i></a></li>
+					<li><a rel="bookmark" href="http://localhost/webcreathtml/business-websites/"><span>Business website</span><i> </i></a></li>
+					<li><a rel="bookmark" href="http://localhost/webcreathtml/e-commerce/"><span>E-commerce</span><i> </i></a></li>
+					<li id="loginLink"><a href="http://localhost/webcreathtml/sign-in/" id="loginLinkBtn" ><span>Login</span><i> </i></a></li>
 				</ul>
+			-->
 				<div id="headerIllustration">
 					<div id="watchVideo">
 						<!-- -->
@@ -413,7 +433,7 @@
 					</div>
 				</form>
 				<form id="headerSignIn" action="http://localhost/webcreathtml/sign-in/"
-					method="post" enctype="application/x-www-form-urlencoded">
+					method="post" enctype="application/x-www-form-urlencoded" > <!-- style="display: block; visibility: visible; top: 7px;z-index: 1032;position: absolute;" -->
 					<input type="hidden" name="login" value="1">
 					<div class="formRow">
 						<label for="signInEmail">Email address</label><span
